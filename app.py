@@ -81,7 +81,7 @@ HTML_TEMPLATE = '''
 <body>
 <div class="container" id="mainContainer">
     <div class="icon">🌽⚡️🌙</div>
-    <h2>听听雷朋想跟你说的</h2>
+    <h2>米米啊~雷朋想跟你说</h2>
     <div class="message" id="message">
         👆 <strong>轻触屏幕任意位置</strong><br>自动播放音乐
     </div>
@@ -101,7 +101,7 @@ HTML_TEMPLATE = '''
         if (played) return;
         played = true;
         audio.play().then(() => {
-            document.getElementById('message').innerHTML = '🎶 正在播放...<br>享受音乐吧';
+            document.getElementById('message').innerHTML = '🎶 正在播放...<br>享受爱吧';
             document.getElementById('statusMsg').innerHTML = '🎧 播放中';
             document.querySelector('.container').style.transform = 'scale(1.01)';
             if (touchListener) {
