@@ -80,8 +80,8 @@ HTML_TEMPLATE = '''
 </head>
 <body>
 <div class="container" id="mainContainer">
-    <div class="icon">🎵</div>
-    <h2>NFC 音频相册</h2>
+    <div class="icon">🌽⚡️🌙</div>
+    <h2>听听雷朋想跟你说的</h2>
     <div class="message" id="message">
         👆 <strong>轻触屏幕任意位置</strong><br>自动播放音乐
     </div>
